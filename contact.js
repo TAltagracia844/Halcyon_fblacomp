@@ -12,20 +12,23 @@ myFunction(size) // Call listener function at run time
 size.addListener(myFunction) // Attach listener function on state changes
 
 
-/*forms?*/
-document.getElementById("sub").onclick = function() {
-  validate();
-}
+// /*forms?*/
+// document.getElementById("sub").onclick = function() {
+//   validate();
+// }
 
-function validate() {
-  var name = document.getElementById("name");
-  var email = document.getElementById("email");
+// function validate() {
+//   var name = document.getElementById("name");
+//   var email = document.getElementById("email");
 
-  if (name = "") {
-    alert("Please fill out this field.");
-  }
+//   if (name = "") {
+//     alert("Please fill out this field.");
+//   }
 
-  if (email = "") {
-    alert("Please fill out this field.");
-  }
-}
+//   if (email = "") {
+//     alert("Please fill out this field.");
+//   }
+// }
+
+
+
